@@ -1,29 +1,48 @@
 # Avatar Platform
-2
  
-3
 Human to Avatar transformation platform.
-4
  
-5
-Features:
-6
-- OBS integration
-7
-- Livestream support
-8
-- Video calls
-9
-- AI avatar transformation
-10
+## Features
  
-11
-Tech Stack:
-12
+- OBS Integration
+- Livestream Support
+- Video Calls
+- AI Avatar Transformation
+ 
+## Tech Stack
+ 
 - Node.js
-13
 - Express
-14
-- OBS
-15
-- Decart
+- OBS Studio
+- Decart AI
+ 
+## Current MVP
+ 
+Webcam
+↓
+Browser
+↓
+Avatar Platform
+↓
+OBS
+ 
+## Roadmap
+ 
+### Phase 1
+- Webcam Integration
+- GitHub Setup
+- Local Development Environment
+ 
+### Phase 2
+- Face Tracking
+- Avatar Overlay
+ 
+### Phase 3
+- OBS Integration
+ 
+### Phase 4
+- Decart AI Integration
+ 
+### Phase 5
+- Video Calls
+- Livestreaming
