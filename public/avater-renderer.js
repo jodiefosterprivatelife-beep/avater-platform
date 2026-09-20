@@ -1,0 +1,1 @@
+console.log("Avatar Renderer Loaded");
