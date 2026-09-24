@@ -9,5 +9,5 @@ navigator.mediaDevices
         video.srcObject = stream;
     })
     .catch((error) => {
-        console.error("Camera error:", error);
+        console.error(error);
     });

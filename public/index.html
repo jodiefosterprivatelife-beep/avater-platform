@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+ 
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avatar Platform</title>
+    <title>Avatar Platform MVP</title>
      
     <link rel="stylesheet" href="style.css">
 </head>
+ 
 
 <body>
      
     <h1>Avatar Platform MVP</h1>
      
-    <p>Webcam → Avatar → OBS</p>
+    <h2>Webcam → Avatar → OBS</h2>
      
-    <video id="webcam" autoplay playsinline width="640">
-    </video>
+    <div id="container">
+        <video id="webcam" autoplay playsinline>
+        </video>
+    </div>
      
     <script src="decart.js"></script>
     <script src="face-tracking.js"></script>
     <script src="avatar-renderer.js"></script>
      
 </body>
+ 
 
 </html>

@@ -1,14 +1,15 @@
-const avatar = () => document.querySelector("img");
-
 document.addEventListener("mousemove", (event) => {
 
-    const img = avatar();
+    const avatar = window.avatarImage;
 
-    if (!img) return;
+    if (!avatar) return;
 
-    const moveX = (event.clientX - window.innerWidth / 2) / 50;
-    const moveY = (event.clientY - window.innerHeight / 2) / 50;
+    const x =
+        (event.clientX - window.innerWidth / 2) / 40;
 
-    img.style.transform =
-        `translate(${moveX}px, ${moveY}px)`;
+    const y =
+        (event.clientY - window.innerHeight / 2) / 40;
+
+    avatar.style.transform =
+        `translate(${x}px, ${y}px)`;
 });
