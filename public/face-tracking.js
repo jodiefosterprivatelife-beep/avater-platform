@@ -1,15 +1,20 @@
-document.addEventListener("mousemove", (event) => {
+console.log("Face Tracking Loaded");
 
-    const avatar = window.avatarImage;
+window.addEventListener("load", () => {
 
-    if (!avatar) return;
+    if (!window.avatarImage) return;
 
-    const x =
-        (event.clientX - window.innerWidth / 2) / 40;
+    document.addEventListener("mousemove", (event) => {
 
-    const y =
-        (event.clientY - window.innerHeight / 2) / 40;
+        const x =
+            (event.clientX - window.innerWidth / 2) / 40;
 
-    avatar.style.transform =
-        `translate(${x}px, ${y}px)`;
+        const y =
+            (event.clientY - window.innerHeight / 2) / 40;
+
+        window.avatarImage.style.transform =
+            `translate(${x}px, ${y}px)`;
+
+    });
+
 });

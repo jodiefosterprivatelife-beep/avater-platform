@@ -8,6 +8,11 @@
     <title>Avatar Platform MVP</title>
      
     <link rel="stylesheet" href="style.css">
+     
+    https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/face_mesh.jsscript>
+     
+    https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.jsscript>
+     
 </head>
  
 
@@ -15,7 +20,7 @@
      
     <h1>Avatar Platform MVP</h1>
      
-    <h2>Webcam → Avatar → OBS</h2>
+    <h2>Webcam → Face Tracking → Avatar → OBS</h2>
      
     <div id="container">
         <video id="webcam" autoplay playsinline>
@@ -23,8 +28,8 @@
     </div>
      
     <script src="decart.js"></script>
-    <script src="face-tracking.js"></script>
     <script src="avatar-renderer.js"></script>
+    <script src="face-tracking.js"></script>
      
 </body>
  

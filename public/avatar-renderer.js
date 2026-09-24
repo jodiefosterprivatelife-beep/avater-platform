@@ -10,7 +10,6 @@ avatar.style.width = "220px";
 avatar.style.height = "220px";
 
 avatar.style.borderRadius = "50%";
-
 avatar.style.border = "4px solid #00ff88";
 
 avatar.style.boxShadow =
